@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Kiran R </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .content img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Vijay Kiran R</h1>
+        <p>Excentrix intern</p>
+    </div>
+    <div class="container">
+        <div class="content">
+            <img src="{{ url_for('static', filename='eren.png') }}" alt="Vijay Kiran R">
+            <p>Welcome to my personal webpage!</p>
+            <div class="link">
+                <a href="{{ url_for('aa') }}">Go to ZERODHA colne Page</a>
+            </div>
+            <p>Feel free to reach out to me if you have any questions or project ideas!</p>
+        </div>
+    </div>
+    <!-- Your dynamic and moving elements can be added here using JavaScript or CSS animations -->
+</body>
+</html>
